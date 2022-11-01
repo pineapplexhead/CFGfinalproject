@@ -6,6 +6,7 @@
 
 body {
 	font-family: sans-serif;
+    font-size:2vw
 }
 
 body, html {
@@ -15,6 +16,9 @@ body, html {
 /* Nav bar CSS */
 header {
     background-color: #262626;
+    position: fixed;
+    top: 0;
+    width: 100%;
 }
 
 li {
@@ -112,6 +116,10 @@ a {
     .nav-menu.active {
         left: 0;
     }
+
+    .header-containers {
+        align-items: center;
+    }
 }
 /* Nav bar CSS end */
 
@@ -124,9 +132,39 @@ a {
     background-size: cover;
 }
 
-.background_image .btn {
+ /* Welcome page header styles */
+ .header-containers {
+    width: 75%;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+    background-color: #ffffff; opacity: 75%;
     position: absolute;
-    top: 99%;
+    top: 50%;
+    right: 10%;
+    left: 10%;
+    padding: 15px;
+    margin: 20px;
+    border-radius: 15px;
+}
+
+  .h1-welcome {
+    text-align: center;
+    color: rgb(66, 19, 19);
+  }
+
+  .h3-welcome {
+    text-align: center;
+    justify-content: center;
+    color: #dc3b3b;
+  }
+
+  /* Enter button */
+.background_image .btn {
+    position: relative;
+    top: 90%;
     left: 50%;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
@@ -144,3 +182,5 @@ a {
     background-color: rgb(33, 155, 96);
     color: #262626;
   }
+
+ 
