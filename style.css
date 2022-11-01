@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;   
+    box-sizing: border-box;
+}
+
+body {
+	font-family: sans-serif;
+}
+
+body, html {
+    height: 100%;
+  }
+
+/* Nav bar CSS */
+header {
+    background-color: #262626;
+}
+
+li {
+    list-style: none;
+    float: left;
+    color: white; 
+    text-decoration: none;
+}
+
+a {
+    color: white; 
+    text-decoration: none;
+}
+
+.navbar {
+    background-color: #262626;
+    min-height: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 12px;
+    gap: 20px;
+}
+
+.nav-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.nav-link {
+    transition: 0.7s ease;
+}
+
+.nav-link:hover {
+    color: rgb(72, 86, 177);
+}
+
+.hamburger {
+    display: none;
+    cursor: pointer;
+    align-items: right;
+}
+
+.bar {
+    align-items: right;
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: white;
+}
+
+@media(max-width: 768px) {
+    .hamburger{
+        display: block;
+    }
+
+    .hamburger.active .bar:nth-child(2) {
+        opacity: 0;
+    }
+
+    .hamburger.active .bar:nth-child(1) {
+        transform: translateY(8px) rotate(45deg);
+    }
+
+    .hamburger.active .bar:nth-child(3) {
+        transform: translateY(-8px) rotate(-45deg);
+    }
+
+    .nav-menu {
+        position: fixed;
+        left: -100%;
+        top: 10px;
+        gap: 2px;
+        flex-direction: column;
+        background-color: #262626;
+        width: 100%;
+        text-align: right;
+        transition: 0.3s;
+    }
+
+    .navbar {
+        min-height: 10px;
+        padding: 2px 2px 2px 2px;
+    }
+
+    .nav-item {
+        margin: 16px;
+    }
+
+    .nav-menu.active {
+        left: 0;
+    }
+}
+/* Nav bar CSS end */
+
+/* Background image */
+.background_image {
+    background-image: url("./Images/outside.jpeg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.background_image .btn {
+    position: absolute;
+    top: 99%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #9f4141;
+    color: #262626;
+    font-size: 16px;
+    padding: 6px 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+  }
+  
+  .background_image .btn:hover {
+    background-color: rgb(33, 155, 96);
+    color: #262626;
+  }
