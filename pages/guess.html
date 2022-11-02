@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta name='viewport' content='initial-scale=1, viewport-fit=cover'>
     <link rel ="stylesheet" href="/style.css" />
     <title>Solve the myster</title>
 </head>
@@ -13,10 +13,10 @@
     <nav id ="navbar-top" class="navbar">
        <ul class="nav-menu">
            <li class="navbar-item">DEATH IN THE COUNTRYSIDE:</li>
-          <li class="navbar-item"><a href="/pages/index.html" class="nav-link">HOME</a></li>
-          <li class="navbar-item"><a href="" class="nav-link">HOW TO PLAY</a></li>
-          <li class="navbar-item"><a href="./guess.html" class="nav-link">SOLVE THE MYSTERY</a></li>
-      </ul>
+           <li class="navbar-item"><a href="./index.html" class="nav-link">HOME</a></li>
+           <li class="navbar-item"><a href="./howtoplay.html" class="nav-link">HOW TO PLAY</a></li>
+           <li class="navbar-item"><a href="./guess.html" class="nav-link">SOLVE THE MYSTERY</a></li>
+       </ul>
   </nav>
 
 <!-- Hambuger -->
@@ -27,10 +27,55 @@
   </div>
 </header>
 
-<body>
+<body> <div class="guess-wallpaper">
+
+    <br>
     
+    <h1 class="solve-title">So you think you've solved the mystery?</h1>
+
+    <p class="solve-paragraph">Take your guess, you'll see when you've clicked on the right answer. And if you're not sure you can click them all, we're not counting! Once you're ready for the reveal, we'll let you in on all the gory details.</p>
+
+    <h3 class="solve-subtitle">Select your murderer</h3>
+
+    <div id="solution"><div class="solve-people">
+        <button id ="s-dusty"> <img class ="solution-person" src="/images/Dusty.png"/></button>
+        <button id ="s-hazel"> <img class ="solution-person" src="/images/Hazel.png"/></button>
+        <button id ="s-holly"> <img class ="solution-person" src="/images/Holly.png"/></button>
+        <button id ="s-lewis"> <img class ="solution-person" src="/images/Lewis.png"/></button>
+        <button id ="s-marc"> <img class ="solution-person" src="/images/Marc.png"/></button>
+        <button id ="s-walter"> <img class ="solution-person" src="/images/Walter.png"/></button>
+        <button id ="s-will"> <img class ="solution-person" src="/images/Will.png"/></button>
+    </div>
 
 
+    <br>
+    <h3 class="solve-subtitle">Select your murder weapon</h3>
+    <div class="solve-objects">
+        <button id ="s-knife"> <img class="solution-object" src="/images/Knife.png"/></button>
+        <button id ="s-rifles"> <img class="solution-object" src="/images/Rifles.png"/></button>
+        <button id ="s-rope"> <img class="solution-object" src="/images/Rope.png"/></button>
+        <button id ="s-whiskey"> <img class="solution-object" src="/images/whiskeynew.png"/></button>
+    </div></div>
+
+    <button id="solution-button">Click to reveal</button>
+
+    <div id="correct-solution">
+        Hazel murdered Charles with a deathly dose of Cyanide in his whiskey.
+        <br><br>Opportunity:
+        <br>Hazel was at Lewis’ for a movie night last night. However, he went to bed first, so 
+        she was able to sneak out and deliver the whiskey to Charles.
+        <br><br>Means:
+        <br>She was able to access Cyanide through her girlfriend who works at a jewellers. 
+        Cyanide is used in the process of plating gold and silver jewellery.
+        <br><br>Motive:
+        <br>Hazel knew her mum had had an affair with Charles due to Lewis’ slip up when 
+        he was drunk, and after she got texts from Holly saying that Charles has a child, 
+        she started to get suspicious. Hazel was Charles’ only child, and therefore would 
+        inherit is fortune. And as she wants to pay for her dad’s retirement and move out
+        to New York, she was very keen on getting her hands on that...
+            </div>
+<br><br>
+<br>
     <script src="/originalcode.js"  ></script>  
 </body>
 </html>
