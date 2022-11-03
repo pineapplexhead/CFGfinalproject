@@ -694,8 +694,8 @@ html {
     padding: 1%;
     position: absolute;
     width: 40%;
-    left: 35%;
-    top:29%;
+    left: 37%;
+    top:25%;
     padding-left: 8%;
     font-size: 1vw;
     font-family:sans-serif;
@@ -712,7 +712,7 @@ html {
     position: absolute;
     width: 20%;
     left: 30%;
-    bottom:9%;
+    bottom:1%;
     font-size: 1vw;
     font-family:sans-serif;
     z-index: 1;
@@ -729,7 +729,7 @@ html {
     padding: 1%;
     position: absolute;
     width: 25%;
-    left: 12%;
+    left: 10%;
     top: 29%;
     font-size: 1vw;
     font-family:sans-serif;
@@ -745,8 +745,8 @@ html {
     padding: 1%;
     position: absolute;
     width: 20%;
-    right: 6%;
-    bottom:23%;
+    right: 8%;
+    bottom:21%;
     font-size: 1vw;
     font-family:sans-serif;
     z-index: 1;
@@ -762,8 +762,8 @@ html {
     margin: 2%;
     padding: 1%;
     position: absolute;
-    width: 40%;
-    right: 5%;
+    width: 85%;
+    right: 1%;
     top:4%;
     font-size: 1vw;
     font-family:sans-serif;
@@ -779,7 +779,7 @@ html {
     padding: 1%;
     position: absolute;
     width: 20%;
-    left: 20%;
+    left: 24%;
     bottom:13%;
     font-size: 1vw;
     font-family:sans-serif;
@@ -797,8 +797,8 @@ html {
     padding: 1%;
     position: absolute;
     width: 20%;
-    left: 15%;
-    top:14%;
+    left: 13%;
+    top:12%;
     font-size: 1vw;
     font-family:sans-serif;
     z-index: 1;
@@ -812,8 +812,8 @@ html {
     margin: 2%;
     padding: 1%;
     position: absolute;
-    width: 25%;
-    right: 26%;
+    width: 23%;
+    right: 28%;
     bottom:20%;
     font-size: 1vw;
     font-family:sans-serif;
@@ -831,7 +831,7 @@ html {
     padding: 1%;
     position: absolute;
     width: 40%;
-    left: 29%;
+    left: 26%;
     top:14%;
     font-size: 1vw;
     font-family:sans-serif;
@@ -848,8 +848,8 @@ html {
     padding-right: 7%;
     position: absolute;
     width: 20%;
-    left: 41%;
-    bottom:35%;
+    left: 39%;
+    bottom:25%;
     font-size: 1vw;
     font-family:sans-serif;
     z-index: 1;
@@ -865,9 +865,9 @@ html {
     margin: 2%;
     padding: 1%;
     position: absolute;
-    width: 48%;
-    left: 7%;
-    bottom:9%;
+    width: 38%;
+    left: 13%;
+    bottom:2%;
     padding-left: 8%;
     font-size: 1vw;
     font-family:sans-serif;
@@ -901,8 +901,8 @@ html {
     padding: 1%;
     position: absolute;
     width: 30%;
-    left: 14%;
-    bottom:32%;
+    left: 17%;
+    bottom:30%;
     padding-left: 12%;
     font-size: 1vw;
     font-family:sans-serif;
@@ -918,7 +918,7 @@ html {
     padding: 1%;
     position: absolute;
     width: 20%;
-    right: 22%;
+    right: 24%;
     bottom:16%;
     font-size: 1vw;
     font-family:sans-serif;
@@ -954,7 +954,7 @@ html {
     bottom: 1%;
     right: 1%;
     width: 30%;
-    font-size: 1vw;
+    font-size: 1.2vw;
     font-family:sans-serif;
     z-index: 1;
 }
