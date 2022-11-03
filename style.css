@@ -284,7 +284,7 @@ button {
 }
 
 .guess-wallpaper {
-    background-image: url(/images/wallpaper.jpeg);
+    background-image: url(./images/wallpaper.jpeg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
