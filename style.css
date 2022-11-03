@@ -166,13 +166,13 @@ a {
 .background_image .btn {
     position: relative;
     top: 90%;
-    left: 50%;
+    left: 42%;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     background-color: #9f4141;
     color: #262626;
-    font-size: 16px;
-    padding: 6px 10px;
+    font-size: 2vw;
+    padding: 1.2%;
     border: none;
     cursor: pointer;
     border-radius: 5px;
