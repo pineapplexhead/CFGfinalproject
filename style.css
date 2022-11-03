@@ -126,7 +126,7 @@ a {
 
 /* Welcome page Background image */
 .background_image {
-    background-image: url("./Images/outside.jpeg");
+    background-image: url("./images/outside.jpeg");
     height: 100%;
     background-position: center;
     background-repeat: no-repeat;
